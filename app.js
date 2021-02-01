@@ -6,7 +6,7 @@ app.set('views', './views');
 const port = process.env.PORT || 8080;
 
 app.get('/', function (req, res) {
-    res.render('index', {title: 'Заголовок', message: 'Тут текст!'});
+    res.render('index', {title: 'Заголовок', message: 'Привет, мой милый друг!!!'});
 });
 
 app.get('/page3', function (req, res) {
